@@ -42,7 +42,9 @@ class Projects extends Component {
           <h1 className="projectHeader">.STCEJORP</h1>
           <div id="projects">
             <div className="project-container">
-              <img id="project1" src="gg.png" alt="project" />
+              <div className="project-image">
+                <img id="project1" src="gg.png" alt="project" />
+              </div>
               <p id="proj-text">
                 An intuitive GUI for all git and github functionalities.
               </p>
@@ -50,26 +52,32 @@ class Projects extends Component {
                 href="https://github.com/CapstoneGitGui/Github_gui"
                 id="gh-image-proj-container"
               >
-                <img
-                  className="gh-image-proj-1"
-                  src="original.png"
-                  alt="project"
-                />
+                <div className="project-image">
+                  <img
+                    className="gh-image-proj-1"
+                    src="original.png"
+                    alt="project"
+                  />
+                </div>
               </a>
             </div>
             <div className="project-container">
-              <img id="project2" src="shoe.png" alt="project" />
+              <div className="project-image">
+                <img id="project2" src="shoe.png" alt="project" />
+              </div>
               <p>
                 A pick-up basketball game app that serves as a social platform
                 for basketball players and simplifies the search of finding
                 local games.
               </p>
               <a href="https://github.com/FullstackBallerz/courtdude">
-                <img
-                  className="gh-image-proj-2"
-                  src="original.png"
-                  alt="project"
-                />
+                <div className="project-image">
+                  <img
+                    className="gh-image-proj-2"
+                    src="original.png"
+                    alt="project"
+                  />
+                </div>
               </a>
             </div>
           </div>

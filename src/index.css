@@ -387,6 +387,9 @@
 }
 
 .project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 2rem;
   margin-left: 4rem;
   padding: 2.3rem;
@@ -412,34 +415,23 @@
   transform: scale(1.1);
 }
 
-#proj-text {
-  position: relative;
-  top: 26%;
-}
 .gh-image-proj-1 {
-  position: relative;
-  top: 3.7rem;
   height: 26%;
   width: 39%;
   z-index: 3;
-  border-radius: 8px;
 }
 
-#gh-image-proj-container {
-  position: relative;
-  top: 11rem;
-  left: 32%;
+.project-image {
+  text-align: center;
+  margin: 2rem 0 4rem 0;
 }
 
 .gh-image-proj-2 {
   position: relative;
-  top: 33%;
-  left: 32%;
   height: 26%;
   width: 39%;
   z-index: 3;
   border-radius: 8px;
-  margin-top: 2rem;
 }
 
 .gh-image-proj:hover {
@@ -459,26 +451,14 @@
 }
 
 #project1 {
-  position: relative;
-  /* box-shadow: 0 3px 1px rgba(0, 0, 0, 0.15); */
-  /* transition: box-shadow 0.2s ease-in-out; */
-  border-radius: 5%;
-  margin-top: 1rem;
-  height: 10vh;
-  width: 20vw;
-  bottom: 1rem;
-  top: 3rem;
+  margin-top: 3rem;
 }
 
 #project2 {
-  position: relative;
   height: 20vh;
-  left: 2.5rem;
   width: 15vw;
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.2s ease-in-out;
   border-radius: 5%;
-  margin-bottom: 3rem;
 }
 
 .showModal {
@@ -942,4 +922,13 @@
 }
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+@media (max-width: 630px) {
+  .project-container {
+    font-size: 1em;
+  }
+  #projects {
+    flex-direction: column;
+  }
 }
