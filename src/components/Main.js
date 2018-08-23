@@ -72,6 +72,7 @@ class Main extends Component {
           checked={this.state.cubeView === 'radio-bottom'}
           onChange={this.handleChange}
         />
+
         <div className="scene">
           <div className="cube">
             <div
@@ -83,11 +84,7 @@ class Main extends Component {
               className="cube-face  cube-face-right"
             >
               <a href="https://linkedin.com/in/dankim111">
-                <img
-                  className="li-image"
-                  src="linkedin.png"
-                  alt="cube"
-                />
+                <img className="li-image" src="linkedin.png" alt="cube" />
               </a>
             </div>
             <div
@@ -95,11 +92,7 @@ class Main extends Component {
               className="cube-face  cube-face-back"
             >
               <a href="https://github.com/danielkjm">
-                <img
-                  className="gh-image"
-                  src="octoliberty.png"
-                  alt="cube"
-                />
+                <img className="gh-image" src="octoliberty.png" alt="cube" />
               </a>
             </div>
             <div
@@ -107,11 +100,7 @@ class Main extends Component {
               className="cube-face  cube-face-left"
             >
               <a href="https://medium.com/@dkdan94">
-                <img
-                  className="md-image"
-                  src="medium.png"
-                  alt="cube"
-                />
+                <img className="md-image" src="medium.png" alt="cube" />
               </a>
             </div>
             <div

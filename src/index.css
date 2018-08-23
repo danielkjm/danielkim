@@ -128,6 +128,10 @@
   cursor: pointer;
 }
 
+/* .cube-container {
+  text-align: center;
+} */
+
 .cube {
   width: 100%;
   height: 100%;
@@ -924,11 +928,23 @@
   margin-top: 5px;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 650px) {
   .project-container {
     font-size: 1em;
   }
   #projects {
     flex-direction: column;
+  }
+  .experienceHeader {
+    font-size: 4em;
+  }
+  .projectHeader {
+    font-size: 4em;
+  }
+  .skillsHeader {
+    font-size: 4em;
+  }
+  .text-muted-inverted {
+    font-size: 3em;
   }
 }
