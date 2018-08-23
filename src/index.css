@@ -117,8 +117,8 @@
 
 .scene {
   position: absolute;
-  top: 22%;
-  left: 39%;
+  top: 24%;
+  left: 40%;
   width: 350px;
   height: 350px;
   perspective: 1050px;
@@ -139,7 +139,7 @@
   position: relative;
   margin-left: 0.7rem;
   margin-right: 0.2rem;
-  left: 45.3%;
+  left: 45%;
   top: 83%;
 }
 .radio-position:hover {
