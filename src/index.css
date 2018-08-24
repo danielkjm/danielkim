@@ -1047,6 +1047,98 @@
     margin-left: 0.9rem;
     margin-right: 0.2rem;
     left: 40.1%;
+    top: 80%;
+  }
+}
+@media (max-height: 490px) {
+  .scene {
+    position: absolute;
+    top: 18%;
+    left: 39%;
+    width: 180px;
+    height: 180px;
+    perspective: 540px;
+  }
+
+  .cube-face-front {
+    border: none;
+    background: url('./dk.jpg');
+    background-size: 80%;
+    background-position: top 45% left 50%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    transform: translate3d(0, 0, 90px);
+  }
+  .cube-face-right {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(192, 192, 192);
+    transform: rotateY(90deg) translate3d(0, 0, 90px);
+  }
+  .cube-face-back {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: white;
+    transform: rotateY(180deg) translate3d(0, 0, 90px);
+  }
+  .cube-face-left {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    /* background: url('medium.jpg');
+                  background-size: 90%;
+                  background-position: top 50% left 50%; */
+    /* background-repeat: no-repeat; */
+    border: 1px solid rgb(192, 192, 192);
+    background-color: white;
+    transform: rotateY(-90deg) translate3d(0, 0, 90px);
+  }
+
+  .cube-face-top {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    border: 1px solid rgb(192, 192, 192);
+    background: rgb(255, 255, 255);
+    transform: rotateX(90deg) translate3d(0, 0, 90px);
+    font-size: 1.8em;
+
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0.1em;
+
+    /* color: rgb(69, 61, 184); */
+    color: black;
+    font-weight: normal;
+  }
+
+  .cube-face-bottom {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    border: 1px solid rgb(192, 192, 192);
+    background: rgb(255, 255, 255);
+    transform: rotateX(-90deg) translate3d(0, 0, 90px);
+    font-size: 1.8em;
+
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0.1em;
+
+    /* color: rgb(69, 61, 184); */
+    color: black;
+    font-weight: normal;
+  }
+
+  .radio-position {
+    position: relative;
+    margin-left: 0.9rem;
+    margin-right: 0.2rem;
+    left: 40.1%;
     top: 76%;
   }
 }
