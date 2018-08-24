@@ -56,7 +56,7 @@ class Projects extends Component {
               >
                 <div className="project-image">
                   <img
-                    className="gh-image-proj-1"
+                    className="gh-octocat"
                     src="original.png"
                     alt="project"
                   />
@@ -75,7 +75,7 @@ class Projects extends Component {
               <a href="https://github.com/FullstackBallerz/courtdude">
                 <div className="project-image">
                   <img
-                    className="gh-image-proj-2"
+                    className="gh-octocat"
                     src="original.png"
                     alt="project"
                   />

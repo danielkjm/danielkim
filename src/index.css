@@ -414,7 +414,7 @@
   transform: scale(1.1);
 }
 
-.gh-image-proj-1 {
+.gh-octocat {
   height: 26%;
   width: 39%;
   z-index: 3;
@@ -422,15 +422,12 @@
 
 .project-image {
   text-align: center;
-  margin: 2rem 0 4rem 0;
+  margin: 1rem 0 2rem 0;
 }
 
-.gh-image-proj-2 {
-  position: relative;
-  height: 26%;
-  width: 39%;
-  z-index: 3;
-  border-radius: 8px;
+.gh-image {
+  text-align: center;
+  margin: 2rem 0 0rem 0;
 }
 
 .gh-image-proj:hover {
@@ -450,7 +447,7 @@
 }
 
 #project1 {
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 #project2 {
