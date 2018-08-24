@@ -99,6 +99,7 @@ class Experience extends Component {
                   first taste of a legal career, composing summary briefs for
                   civil cases on tort, contract and property law.
                 </p>
+
                 <img
                   src="lehighCourt.jpg"
                   className="timeline-image"

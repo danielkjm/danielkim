@@ -215,7 +215,7 @@
   transform: rotateY(180deg) translate3d(0, 0, 175px);
 }
 
-.gh-image {
+.cube-gh {
   position: relative;
   top: 33%;
   left: 32%;

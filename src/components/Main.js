@@ -93,7 +93,7 @@ class Main extends Component {
               className="cube-face  cube-face-back"
             >
               <a href="https://github.com/danielkjm">
-                <img className="gh-image" src="octoliberty.png" alt="cube" />
+                <img className="cube-gh" src="octoliberty.png" alt="cube" />
               </a>
             </div>
             <div

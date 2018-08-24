@@ -54,7 +54,7 @@ class Projects extends Component {
                 href="https://github.com/CapstoneGitGui/Github_gui"
                 id="gh-image-proj-container"
               >
-                <div className="project-image">
+                <div className="gh-image">
                   <img
                     className="gh-octocat"
                     src="original.png"
@@ -73,7 +73,7 @@ class Projects extends Component {
                 local games.
               </p>
               <a href="https://github.com/FullstackBallerz/courtdude">
-                <div className="project-image">
+                <div className="gh-image">
                   <img
                     className="gh-octocat"
                     src="original.png"
