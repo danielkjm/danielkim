@@ -860,9 +860,6 @@
   .skillsHeader {
     font-size: 4em;
   }
-  .text-muted-inverted {
-    font-size: 3em;
-  }
 }
 
 @media (max-width: 483px) {
@@ -879,9 +876,6 @@
     font-size: 3em;
   }
   .skillsHeader {
-    font-size: 3em;
-  }
-  .text-muted-inverted {
     font-size: 3em;
   }
 }
@@ -1068,5 +1062,28 @@
     margin-right: 0.2rem;
     left: 40.1%;
     top: 76%;
+  }
+}
+
+@media (max-width: 1111px) {
+  .text-muted-inverted {
+    font-size: 3.8em;
+    left: 18%;
+    top: 15px;
+  }
+}
+@media (max-width: 858px) {
+  .text-muted-inverted {
+    left: 15%;
+    top: 25px;
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 622px) {
+  .text-muted-inverted {
+    left: 10%;
+    top: 45px;
+    font-size: 2.5em;
   }
 }
