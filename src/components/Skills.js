@@ -13,16 +13,14 @@ class Skills extends Component {
     return (
       <section className="sectionDivider">
         <Element name="skills" />
-        <h1 className="skillsHeader">.SLLIKS</h1>
+        <div className="section-title">
+          <h1 className="skillsHeader">.SLLIKS</h1>
+        </div>
         <div className="skills">
           <img className="skill" src="node.png" alt="skill" />
           <img className="skill" src="express.png" alt="skill" />
           <img className="skill" src="react.png" alt="skill" />
-          <img
-            className="skill"
-            src="postgreSQL.png"
-            alt="skill"
-          />
+          <img className="skill" src="postgreSQL.png" alt="skill" />
         </div>
         <div className="bubbles">
           <div className="bubble triangle">

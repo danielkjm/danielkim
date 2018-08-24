@@ -39,7 +39,9 @@ class Projects extends Component {
           handleClose={this.hideModal}
         />
         <section ref="projects" className="sectionDivider">
-          <h1 className="projectHeader">.STCEJORP</h1>
+          <div className="section-title">
+            <h1 className="projectHeader">.STCEJORP</h1>
+          </div>
           <div id="projects">
             <div className="project-container">
               <div className="project-image">

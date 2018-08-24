@@ -100,7 +100,6 @@
 }
 
 .sectionDivider {
-  position: relative;
   border-top: rgb(204, 204, 204) 1px solid;
 }
 
@@ -357,15 +356,14 @@
 /*---------------------------------------------*/
 
 /* PROJECTS */
-
+.section-title {
+  text-align: center;
+}
 .projectHeader {
   unicode-bidi: bidi-override;
   direction: rtl;
 
-  position: relative;
-  left: 40%;
   font-size: 6.5em;
-  width: 33vw;
 
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.1em;
@@ -375,9 +373,6 @@
   font-weight: normal;
   margin-bottom: 3rem;
   margin-top: 1rem;
-
-  /* border-top: 2px rgb(69, 61, 184) solid; */
-  /* border-bottom: 2px rgb(0, 0, 0) solid; */
 }
 .projectHeader::first-letter {
   color: rgb(28, 98, 189);
@@ -552,10 +547,7 @@
   position: relative;
   unicode-bidi: bidi-override;
   direction: rtl;
-  left: 33%;
   font-size: 6.5em;
-  width: 33vw;
-
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.1em;
   padding-top: 2rem;
@@ -694,9 +686,7 @@
   position: relative;
   unicode-bidi: bidi-override;
   direction: rtl;
-  left: 46%;
   font-size: 6.5em;
-  width: 33vw;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.1em;
   padding-top: 2rem;
@@ -707,9 +697,7 @@
 }
 
 .experienceHeader::first-letter {
-  /* color: #b43636; */
   color: #ff5252;
-  /* color: #e44646; */
 }
 
 .timeline {
@@ -928,7 +916,7 @@
   margin-top: 5px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   .project-container {
     font-size: 1em;
   }
@@ -946,5 +934,119 @@
   }
   .text-muted-inverted {
     font-size: 3em;
+  }
+}
+
+@media (max-width: 483px) {
+  .project-container {
+    font-size: 1em;
+  }
+  #projects {
+    flex-direction: column;
+  }
+  .experienceHeader {
+    font-size: 3em;
+  }
+  .projectHeader {
+    font-size: 3em;
+  }
+  .skillsHeader {
+    font-size: 3em;
+  }
+  .text-muted-inverted {
+    font-size: 3em;
+  }
+}
+
+@media (max-height: 663px) {
+  .scene {
+    position: absolute;
+    top: 18%;
+    left: 39%;
+    width: 250px;
+    height: 250px;
+    perspective: 750px;
+  }
+
+  .cube-face-front {
+    border: none;
+    background: url('./dk.jpg');
+    background-size: 80%;
+    background-position: top 45% left 50%;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    transform: translate3d(0, 0, 125px);
+  }
+  .cube-face-right {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(192, 192, 192);
+    transform: rotateY(90deg) translate3d(0, 0, 125px);
+  }
+  .cube-face-back {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: white;
+    transform: rotateY(180deg) translate3d(0, 0, 125px);
+  }
+  .cube-face-left {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    /* background: url('medium.jpg');
+    background-size: 90%;
+    background-position: top 50% left 50%; */
+    /* background-repeat: no-repeat; */
+    border: 1px solid rgb(192, 192, 192);
+    background-color: white;
+    transform: rotateY(-90deg) translate3d(0, 0, 125px);
+  }
+
+  .cube-face-top {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    border: 1px solid rgb(192, 192, 192);
+    background: rgb(255, 255, 255);
+    transform: rotateX(90deg) translate3d(0, 0, 125px);
+    font-size: 3em;
+
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0.1em;
+
+    /* color: rgb(69, 61, 184); */
+    color: black;
+    font-weight: normal;
+  }
+
+  .cube-face-bottom {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    border: 1px solid rgb(192, 192, 192);
+    background: rgb(255, 255, 255);
+    transform: rotateX(-90deg) translate3d(0, 0, 125px);
+    font-size: 3em;
+
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 0.1em;
+
+    /* color: rgb(69, 61, 184); */
+    color: black;
+    font-weight: normal;
+  }
+
+  .radio-position {
+    position: relative;
+    margin-left: 0.9rem;
+    margin-right: 0.2rem;
+    left: 40.1%;
+    top: 76%;
   }
 }

@@ -25,6 +25,7 @@ class Main extends Component {
     return (
       <section className="main">
         <Element name="dk" />
+
         <input
           className="radio-position"
           type="radio"

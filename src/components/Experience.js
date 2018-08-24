@@ -13,7 +13,9 @@ class Experience extends Component {
     return (
       <section className="sectionDivider">
         <Element name="experience" />
-        <h1 className="experienceHeader">.ECNEIREPXE</h1>
+        <div className="section-title">
+          <h1 className="experienceHeader">.ECNEIREPXE</h1>
+        </div>
 
         <ul className="timeline">
           <li className="timeline-inverted">
