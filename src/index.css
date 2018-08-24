@@ -228,7 +228,7 @@
   border-radius: 8px;
 }
 
-.gh-image:hover {
+.cube-gh:hover {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -237,9 +237,9 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.gh-image:hover,
-.gh-image:focus,
-.gh-image:active {
+.cube-gh:hover,
+.cube-gh:focus,
+.cube-gh:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
