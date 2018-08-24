@@ -21,7 +21,7 @@ class Experience extends Component {
           <li className="timeline-inverted">
             <div className="timeline-badge" />
             <div className="timeline-panel">
-              <div id="timeline-heading-FSA">
+              <div className="timeline-heading">
                 <h4>FULLSTACK ACADEMY</h4>
               </div>
               <div className="timeline-body">
@@ -32,11 +32,7 @@ class Experience extends Component {
                   proficient with Node, Express, React, and PostgreSQL. I have
                   loved the journey of software development since.
                 </p>
-                <img
-                  src="FSA.png"
-                  className="timeline-image-FSA"
-                  alt="timeline"
-                />
+                <img src="FSA.png" className="timeline-image" alt="timeline" />
               </div>
             </div>
             <div className="timeline-date">
@@ -47,7 +43,7 @@ class Experience extends Component {
           <li className="timeline-inverted">
             <div className="timeline-badge" />
             <div className="timeline-panel">
-              <div id="timeline-heading-PLA">
+              <div className="timeline-heading">
                 <h4>PORTNOFF LAW ASSOCIATES</h4>
               </div>
               <div className="timeline-body">
@@ -60,7 +56,7 @@ class Experience extends Component {
                 </p>
                 <img
                   src="portnoff.png"
-                  className="timeline-image-PLA"
+                  className="timeline-image"
                   alt="timeline"
                 />
               </div>
@@ -72,7 +68,7 @@ class Experience extends Component {
           <li className="timeline-inverted">
             <div className="timeline-badge" />
             <div className="timeline-panel">
-              <div id="timeline-heading-LU">
+              <div className="timeline-heading">
                 <h4>LEHIGH UNIVERSITY</h4>
               </div>
               <div className="timeline-body">
@@ -82,7 +78,7 @@ class Experience extends Component {
                 </p>
                 <img
                   src="lehigh.jpg"
-                  className="timeline-image-LU"
+                  className="timeline-image"
                   alt="timeline"
                 />
               </div>
@@ -93,7 +89,7 @@ class Experience extends Component {
           <li className="timeline-inverted">
             <div className="timeline-badge" />
             <div className="timeline-panel">
-              <div id="timeline-heading-CH">
+              <div className="timeline-heading">
                 <h4>LEHIGH COUNTY COURT OF COMMON PLEAS</h4>
               </div>
               <div className="timeline-body">
@@ -105,7 +101,7 @@ class Experience extends Component {
                 </p>
                 <img
                   src="lehighCourt.jpg"
-                  className="timeline-image-CH"
+                  className="timeline-image"
                   alt="timeline"
                 />
               </div>
