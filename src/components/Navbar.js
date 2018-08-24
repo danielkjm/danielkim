@@ -52,14 +52,20 @@ class Navbar extends Component {
           <span />
           <span />
           <ul id="menu">
-            <a className="linkP" onClick={e => this.navigate('projects')}>
-              <li>PROJECTS</li>
+            <a>
+              <li className="linkP" onClick={e => this.navigate('projects')}>
+                PROJECTS
+              </li>
             </a>
-            <a className="linkE" onClick={e => this.navigate('experience')}>
-              <li>EXPERIENCE</li>
+            <a>
+              <li className="linkE" onClick={e => this.navigate('experience')}>
+                EXPERIENCE
+              </li>
             </a>
-            <a className="linkS" onClick={e => this.navigate('skills')}>
-              <li>SKILLS</li>
+            <a>
+              <li className="linkS" onClick={e => this.navigate('skills')}>
+                SKILLS
+              </li>
             </a>
           </ul>
         </div>

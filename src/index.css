@@ -1102,6 +1102,7 @@
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
+    margin-right: 4rem;
   }
 
   #menuToggle input {
@@ -1160,15 +1161,15 @@
     position: absolute;
     border: 1px rgb(151, 151, 151) solid;
     border-radius: 8px;
-    width: 300px;
-    margin: -100px 0 0 -267px;
+    width: 364px;
+    margin: -142px 0 0 -233px;
     padding: 50px;
     padding-top: 125px;
     background: #ffffffda;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: top right;
-    transform: translateX(100%);
+    transform: translateY(-89%);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
 
