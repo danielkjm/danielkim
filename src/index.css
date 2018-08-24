@@ -1091,7 +1091,7 @@
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 700px) {
   .navlinks {
     display: none;
   }
@@ -1115,7 +1115,6 @@
     cursor: pointer;
     opacity: 0; /* hide this */
     z-index: 2; /* and place it over the hamburger */
-
     -webkit-touch-callout: none;
   }
 
@@ -1176,6 +1175,7 @@
   #menu li {
     padding: 10px 0;
     font-size: 22px;
+    font-size: 1.3em;
   }
 
   #menuToggle input:checked ~ ul {
