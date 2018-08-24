@@ -4,8 +4,11 @@ import { scroller } from 'react-scroll';
 class Navbar extends Component {
   constructor() {
     super();
-    this.state = {};
+    this.state = {
+      checked: false
+    };
     this.navigate = this.navigate.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
   navigate(section) {
@@ -17,6 +20,10 @@ class Navbar extends Component {
       offset: -71,
       smooth: 'linear'
     });
+  }
+
+  handleClick() {
+    this.setState({ checked: true });
   }
 
   render() {
@@ -37,7 +44,24 @@ class Navbar extends Component {
           <a className="linkS" onClick={e => this.navigate('skills')}>
             SKILLS
           </a>
-          {/* <a className="linkL">EXTERNAL</a> */}
+        </div>
+
+        <div id="menuToggle" onClick={this.handleClick}>
+          <input type="checkbox" />
+          <span />
+          <span />
+          <span />
+          <ul id="menu">
+            <a className="linkP" onClick={e => this.navigate('projects')}>
+              <li>PROJECTS</li>
+            </a>
+            <a className="linkE" onClick={e => this.navigate('experience')}>
+              <li>EXPERIENCE</li>
+            </a>
+            <a className="linkS" onClick={e => this.navigate('skills')}>
+              <li>SKILLS</li>
+            </a>
+          </ul>
         </div>
       </nav>
     );
