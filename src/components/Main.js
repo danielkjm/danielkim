@@ -25,57 +25,8 @@ class Main extends Component {
     return (
       <section className="main">
         <Element name="dk" />
-
-        <input
-          className="radio-position"
-          type="radio"
-          id="radio-front"
-          name="select-face"
-          defaultChecked
-        />
-        <input
-          className="radio-position"
-          type="radio"
-          id="radio-right"
-          name="select-face"
-          checked={this.state.cubeView === 'radio-right'}
-          onChange={this.handleChange}
-        />
-        <input
-          className="radio-position"
-          type="radio"
-          id="radio-back"
-          name="select-face"
-          checked={this.state.cubeView === 'radio-back'}
-          onChange={this.handleChange}
-        />
-        <input
-          className="radio-position"
-          type="radio"
-          id="radio-left"
-          name="select-face"
-          checked={this.state.cubeView === 'radio-left'}
-          onChange={this.handleChange}
-        />
-        <input
-          className="radio-position"
-          type="radio"
-          id="radio-top"
-          name="select-face"
-          checked={this.state.cubeView === 'radio-top'}
-          onChange={this.handleChange}
-        />
-        <input
-          className="radio-position"
-          type="radio"
-          id="radio-bottom"
-          name="select-face"
-          checked={this.state.cubeView === 'radio-bottom'}
-          onChange={this.handleChange}
-        />
-
         <div className="scene">
-          <div className="cube">
+          <div className={`cube-${this.state.cubeView}`}>
             <div
               onClick={() => this.handleClick('radio-right')}
               className="cube-face  cube-face-front"
@@ -117,6 +68,55 @@ class Main extends Component {
               <div id="cube-text-bot">For Visiting!</div>
             </div>
           </div>
+        </div>
+        <div>
+          <input
+            className="radio-position"
+            type="radio"
+            id="radio-front"
+            name="select-face"
+            defaultChecked
+          />
+          <input
+            className="radio-position"
+            type="radio"
+            id="radio-right"
+            name="select-face"
+            checked={this.state.cubeView === 'radio-right'}
+            onChange={this.handleChange}
+          />
+          <input
+            className="radio-position"
+            type="radio"
+            id="radio-back"
+            name="select-face"
+            checked={this.state.cubeView === 'radio-back'}
+            onChange={this.handleChange}
+          />
+          <input
+            className="radio-position"
+            type="radio"
+            id="radio-left"
+            name="select-face"
+            checked={this.state.cubeView === 'radio-left'}
+            onChange={this.handleChange}
+          />
+          <input
+            className="radio-position"
+            type="radio"
+            id="radio-top"
+            name="select-face"
+            checked={this.state.cubeView === 'radio-top'}
+            onChange={this.handleChange}
+          />
+          <input
+            className="radio-position"
+            type="radio"
+            id="radio-bottom"
+            name="select-face"
+            checked={this.state.cubeView === 'radio-bottom'}
+            onChange={this.handleChange}
+          />
         </div>
       </section>
     );
