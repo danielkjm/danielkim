@@ -6,7 +6,7 @@ class Main extends Component {
   constructor() {
     super();
     this.state = {
-      cubeView: ''
+      cubeView: 'radio-front'
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -69,12 +69,14 @@ class Main extends Component {
             </div>
           </div>
         </div>
-        <div>
+
+        <div className="radio-container">
           <input
             className="radio-position"
             type="radio"
             id="radio-front"
             name="select-face"
+            onChange={this.handleChange}
             defaultChecked
           />
           <input
