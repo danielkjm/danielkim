@@ -390,16 +390,14 @@
 }
 
 .project-container {
-  /* flex-basis: 0; */
   min-width: 290px;
-
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
   width: 33vw;
-  margin: 2rem;
-  /* margin-left: 4rem; */
+  margin: 1rem 4rem 0 4rem;
   padding: 2.3rem;
   border: 2px rgb(204, 204, 204) solid;
   border-radius: 7px;
@@ -425,6 +423,7 @@
 .gh-octocat {
   height: 15vh;
   min-width: 105px;
+  max-width: 117px;
   width: 10vw;
   z-index: 3;
 }
@@ -855,9 +854,6 @@
   .project-container {
     font-size: 1em;
   }
-  #projects {
-    flex-direction: column;
-  }
   .experienceHeader {
     font-size: 4em;
   }
@@ -1040,7 +1036,7 @@
   }
 } */
 
-@media (max-width: 720px) {
+@media (max-width: 880px) {
   .navlogo {
     margin-left: 4rem;
   }
