@@ -854,11 +854,6 @@
     font-size: 4em;
   }
 }
-@media (max-width: 620px) {
-  .navlogo {
-    margin-left: 4rem;
-  }
-}
 
 @media (max-width: 493px) {
   .project-container {
@@ -1044,6 +1039,10 @@
 } */
 
 @media (max-width: 720px) {
+  .navlogo {
+    margin-left: 4rem;
+  }
+
   .navlinks {
     display: none;
   }
