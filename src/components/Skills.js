@@ -22,6 +22,7 @@ class Skills extends Component {
           <img className="skill" src="react.png" alt="skill" />
           <img className="skill" src="postgreSQL.png" alt="skill" />
         </div>
+
         <div className="bubbles">
           <div className="bubble triangle">
             "I was working / studying with Daniel when we were in Fullstack
