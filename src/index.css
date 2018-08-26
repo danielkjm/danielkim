@@ -594,13 +594,14 @@
 }
 
 .rec-box {
-  display: flex;
+  /* display: flex; */
+  text-align: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 
 .rec {
-  /* display: inline-block; */
+  display: inline-block;
   position: relative;
   margin-bottom: 8rem;
 }
@@ -1125,6 +1126,26 @@
 
   #menuToggle input:checked ~ ul {
     transform: none;
+  }
+}
+@media (max-width: 1150px) {
+  .recJay {
+    left: 193px;
+  }
+  .recKerr {
+    left: 193px;
+  }
+}
+
+@media (max-width: 939px) {
+  .bubble {
+    margin-left: 3rem;
+  }
+  .recJay {
+    left: 93px;
+  }
+  .recKerr {
+    left: 93px;
   }
 }
 
