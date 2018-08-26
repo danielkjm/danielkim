@@ -698,7 +698,7 @@
   position: relative;
   unicode-bidi: bidi-override;
   direction: rtl;
-  font-size: 6.5em;
+  font-size: 6em;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.1em;
   padding-top: 2rem;
@@ -732,6 +732,7 @@
 
 .timeline > li {
   margin-bottom: 4rem;
+  height: 100%;
   position: relative;
 }
 
@@ -747,12 +748,14 @@
 
 .timeline > li > .timeline-panel {
   width: 46%;
+  min-width: 46px;
   float: right;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
   padding: 20px;
   position: relative;
   right: 10%;
+  top: -7px;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   margin-right: 1.5rem;
@@ -822,7 +825,7 @@
   float: left;
   width: 30%;
   color: #ff5252;
-  font-size: 5em;
+  font-size: 4em;
   text-align: right;
   position: relative;
 }
@@ -1036,11 +1039,71 @@
   }
 } */
 
-@media (max-width: 880px) {
-  .navlogo {
-    margin-left: 4rem;
+@media (max-width: 750px) {
+  .timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: ' ';
+    width: 3px;
+    background-color: #eeeeee;
+    left: 25.5%;
+    margin-left: -1.5px;
+    margin-bottom: 1.5rem;
   }
 
+  .timeline-date {
+    float: left;
+    width: 23%;
+    color: #ff5252;
+    font-size: 2em;
+    text-align: right;
+    position: relative;
+  }
+
+  .timeline > li > .timeline-panel {
+    width: 64%;
+    float: right;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 12px;
+    position: relative;
+    right: -1%;
+    top: -20px;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    margin-right: 1.5rem;
+  }
+  .timeline-heading {
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Work Sans', sans-serif;
+    margin: 1rem 2rem 2rem 0;
+  }
+
+  .timeline-body {
+    margin: 1rem;
+    font-size: 0.8em;
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .timeline-date:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: -18%;
+    top: 37%;
+    background-color: #ffffff;
+    z-index: 100;
+    border: 1px #d4d4d4 solid;
+    border-radius: 100%;
+  }
+}
+
+@media (max-width: 880px) {
   .navlinks {
     display: none;
   }

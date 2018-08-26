@@ -41,6 +41,9 @@ class Experience extends Component {
           </li>
 
           <li className="timeline-inverted">
+            <div className="timeline-date">
+              <div className="text-muted-inverted">2016</div>
+            </div>
             <div className="timeline-panel">
               <div className="timeline-heading">
                 <h4>PORTNOFF LAW ASSOCIATES</h4>
@@ -59,9 +62,6 @@ class Experience extends Component {
                   alt="timeline"
                 />
               </div>
-            </div>
-            <div className="timeline-date">
-              <div className="text-muted-inverted">2016</div>
             </div>
           </li>
 
