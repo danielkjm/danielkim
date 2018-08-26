@@ -94,10 +94,10 @@ class Experience extends Component {
               </div>
               <div className="timeline-body">
                 <p className="timeline-description">
-                  While at Lehigh University, I interned at the Lehigh County
-                  Courthouse from September to December. Here I received my
-                  first taste of a legal career, composing summary briefs for
-                  civil cases on tort, contract and property law.
+                  I interned at the Lehigh County Courthouse during my senior
+                  year at Lehigh University. I worked under the Honorable Judge
+                  Reichley where I composed summary briefs for civil cases on
+                  tort, contract and property law.
                 </p>
 
                 <img

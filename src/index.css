@@ -95,7 +95,7 @@
 }
 
 .navlogo {
-  padding: 0 0 0 140px;
+  margin-left: 10rem;
 }
 
 #logo:hover {
@@ -866,7 +866,10 @@
   }
 }
 
-@media (max-width: 483px) {
+@media (max-width: 493px) {
+  .navlogo {
+    margin-left: 4rem;
+  }
   .project-container {
     font-size: 1em;
   }
