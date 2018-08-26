@@ -595,12 +595,11 @@
 }
 
 .rec-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
 }
 
 .rec {
+  display: inline-block;
   position: relative;
   margin-bottom: 8rem;
 }
@@ -611,8 +610,8 @@
   width: 10vh;
   margin-bottom: 2rem;
   position: absolute;
-  bottom: -53%;
-  left: 40%;
+  bottom: -105px;
+  left: 219px;
 }
 
 .recKerr {
@@ -621,8 +620,8 @@
   width: 10vh;
   margin-bottom: 2rem;
   position: absolute;
-  bottom: -53%;
-  left: 40%;
+  bottom: -105px;
+  left: 219px;
 }
 
 .bubble {
@@ -640,7 +639,6 @@
   color: rgb(255, 255, 255);
   font-family: 'Work Sans', sans-serif;
   border-radius: 7px;
-
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -655,6 +653,10 @@
 .bubble:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.bubble:hover {
+  cursor: pointer;
 }
 
 .triangle:before {
