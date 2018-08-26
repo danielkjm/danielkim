@@ -19,7 +19,10 @@ class Experience extends Component {
 
         <ul className="timeline">
           <li className="timeline-inverted">
-            <div className="timeline-badge" />
+            <div className="timeline-date">
+              <div className="text-muted-inverted">2018</div>
+            </div>
+
             <div className="timeline-panel">
               <div className="timeline-heading">
                 <h4>FULLSTACK ACADEMY</h4>
@@ -35,13 +38,9 @@ class Experience extends Component {
                 <img src="FSA.png" className="timeline-image" alt="timeline" />
               </div>
             </div>
-            <div className="timeline-date">
-              <div className="text-muted-inverted">2018</div>
-            </div>
           </li>
 
           <li className="timeline-inverted">
-            <div className="timeline-badge" />
             <div className="timeline-panel">
               <div className="timeline-heading">
                 <h4>PORTNOFF LAW ASSOCIATES</h4>
@@ -61,12 +60,12 @@ class Experience extends Component {
                 />
               </div>
             </div>
-
-            <div className="text-muted-inverted">2016</div>
+            <div className="timeline-date">
+              <div className="text-muted-inverted">2016</div>
+            </div>
           </li>
 
           <li className="timeline-inverted">
-            <div className="timeline-badge" />
             <div className="timeline-panel">
               <div className="timeline-heading">
                 <h4>LEHIGH UNIVERSITY</h4>
@@ -87,7 +86,10 @@ class Experience extends Component {
           </li>
 
           <li className="timeline-inverted">
-            <div className="timeline-badge" />
+            <div className="timeline-date">
+              <div className="text-muted-inverted">2015</div>
+            </div>
+
             <div className="timeline-panel">
               <div className="timeline-heading">
                 <h4>LEHIGH COUNTY COURT OF COMMON PLEAS</h4>
@@ -107,7 +109,6 @@ class Experience extends Component {
                 />
               </div>
             </div>
-            <div className="text-muted-inverted">2015</div>
           </li>
         </ul>
       </section>

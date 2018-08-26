@@ -386,7 +386,6 @@
   position: relative;
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
 }
 
 .project-container {
@@ -456,7 +455,8 @@
 
 #project2 {
   height: 20vh;
-  width: 15vw;
+  min-height: 105px;
+  /* width: 15vw; */
   box-shadow: 0 3px 1px rgba(0, 0, 0, 0.15);
   border-radius: 5%;
 }
@@ -736,7 +736,7 @@
 
 .timeline > li > .timeline-panel {
   width: 46%;
-  float: left;
+  float: right;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
   padding: 20px;
@@ -744,7 +744,7 @@
   right: 10%;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .timeline > li > .timeline-panel:before {
@@ -769,11 +769,6 @@
   border-right: 0 solid #fff;
   border-bottom: 14px solid transparent;
   content: ' ';
-}
-
-.timeline > li.timeline-inverted > .timeline-panel {
-  float: right;
-  margin-right: 1.5rem;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel:before {
@@ -812,32 +807,26 @@
   border-radius: 5px;
 }
 
-.timeline > li > .timeline-badge {
-  width: 0.7rem;
-  height: 0.7rem;
-  position: absolute;
-  top: 11%;
-  left: 34.6%;
+.timeline-date {
+  float: left;
+  width: 30%;
+  color: #ff5252;
+  font-size: 5em;
+  text-align: right;
+  position: relative;
+}
 
+.timeline-date:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: -18%;
+  top: 37%;
   background-color: #ffffff;
   z-index: 100;
   border: 1px #d4d4d4 solid;
   border-radius: 100%;
-}
-
-.text-muted {
-  position: relative;
-  color: #ff5252;
-  font-size: 5em;
-  left: 5rem;
-}
-
-.text-muted-inverted {
-  display: inline-block;
-  position: relative;
-  color: #ff5252;
-  font-size: 5em;
-  left: 19%;
 }
 
 .timeline-body > p,
@@ -1035,24 +1024,19 @@
 }
 
 @media (max-width: 1111px) {
-  .text-muted-inverted {
+  .timeline-date {
     font-size: 3.8em;
-    left: 18%;
-    top: 15px;
+    top: 5%;
   }
 }
 @media (max-width: 858px) {
-  .text-muted-inverted {
-    left: 15%;
-    top: 25px;
+  .timeline-date {
     font-size: 3em;
   }
 }
 
 @media (max-width: 622px) {
-  .text-muted-inverted {
-    left: 10%;
-    top: 45px;
+  .timeline-date {
     font-size: 2.5em;
   }
 }
