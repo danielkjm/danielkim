@@ -119,6 +119,7 @@
 }
 
 .scene {
+  margin-top: 5rem;
   width: 350px;
   height: 350px;
   perspective: 1050px;
@@ -883,7 +884,7 @@
   }
 }
 
-@media (max-height: 663px) {
+@media (max-height: 691px) {
   .scene {
     width: 250px;
     height: 250px;
@@ -955,11 +956,8 @@
     font-weight: normal;
   }
 }
-@media (max-height: 490px) {
+@media (max-height: 584px) {
   .scene {
-    position: absolute;
-    top: 28%;
-    left: 39%;
     width: 180px;
     height: 180px;
     perspective: 540px;
@@ -996,10 +994,6 @@
     width: 180px;
     height: 180px;
     border-radius: 8px;
-    /* background: url('medium.jpg');
-                  background-size: 90%;
-                  background-position: top 50% left 50%; */
-    /* background-repeat: no-repeat; */
     border: 1px solid rgb(192, 192, 192);
     background-color: white;
     transform: rotateY(-90deg) translate3d(0, 0, 90px);
@@ -1013,11 +1007,8 @@
     background: rgb(255, 255, 255);
     transform: rotateX(90deg) translate3d(0, 0, 90px);
     font-size: 1.8em;
-
     font-family: 'Work Sans', sans-serif;
     letter-spacing: 0.1em;
-
-    /* color: rgb(69, 61, 184); */
     color: black;
     font-weight: normal;
   }
@@ -1030,21 +1021,13 @@
     background: rgb(255, 255, 255);
     transform: rotateX(-90deg) translate3d(0, 0, 90px);
     font-size: 1.8em;
-
     font-family: 'Work Sans', sans-serif;
     letter-spacing: 0.1em;
-
-    /* color: rgb(69, 61, 184); */
     color: black;
     font-weight: normal;
   }
-
-  .radio-position {
-    position: relative;
-    margin-left: 0.9rem;
-    margin-right: 0.2rem;
-    left: 40.1%;
-    top: 76%;
+  .radio-container {
+    margin-top: 3rem;
   }
 }
 
