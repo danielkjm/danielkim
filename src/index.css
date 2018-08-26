@@ -383,17 +383,23 @@
   color: rgb(28, 98, 189);
 }
 
-#projects {
+.projects {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .project-container {
+  /* flex-basis: 0; */
+  min-width: 290px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  text-align: center;
+  width: 33vw;
   margin: 2rem;
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
   padding: 2.3rem;
   border: 2px rgb(204, 204, 204) solid;
   border-radius: 7px;
@@ -418,7 +424,8 @@
 
 .gh-octocat {
   height: 15vh;
-  width: 12vw;
+  min-width: 105px;
+  width: 10vw;
   z-index: 3;
 }
 

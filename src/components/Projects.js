@@ -43,7 +43,7 @@ class Projects extends Component {
           <div className="section-title">
             <h1 className="projectHeader">.STCEJORP</h1>
           </div>
-          <div id="projects">
+          <div className="projects">
             <div className="project-container">
               <div className="project-image">
                 <img id="project1" src="gg.png" alt="project" />
