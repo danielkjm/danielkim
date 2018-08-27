@@ -69,7 +69,6 @@ class Main extends Component {
             </div>
           </div>
         </div>
-
         <div className="radio-container">
           <input
             tooltip="DK"
@@ -80,6 +79,7 @@ class Main extends Component {
             onChange={this.handleChange}
             defaultChecked
           />
+
           <input
             tooltip="LinkedIn"
             className="radio-position"
@@ -89,6 +89,7 @@ class Main extends Component {
             checked={this.state.cubeView === 'radio-right'}
             onChange={this.handleChange}
           />
+
           <input
             tooltip="GitHub"
             className="radio-position"
@@ -98,6 +99,7 @@ class Main extends Component {
             checked={this.state.cubeView === 'radio-back'}
             onChange={this.handleChange}
           />
+
           <input
             tooltip="Medium"
             className="radio-position"
@@ -107,8 +109,9 @@ class Main extends Component {
             checked={this.state.cubeView === 'radio-left'}
             onChange={this.handleChange}
           />
+
           <input
-            tooltip="Hi"
+            tooltip="Thank"
             className="radio-position"
             type="radio"
             id="radio-top"
@@ -116,8 +119,9 @@ class Main extends Component {
             checked={this.state.cubeView === 'radio-top'}
             onChange={this.handleChange}
           />
+
           <input
-            tooltip="There"
+            tooltip="You"
             className="radio-position"
             type="radio"
             id="radio-bottom"

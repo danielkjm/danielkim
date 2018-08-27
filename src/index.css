@@ -115,7 +115,7 @@
   width: 96vw;
   background-color: rgb(255, 255, 255);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
 }
@@ -129,6 +129,61 @@
 
 .scene:hover {
   cursor: pointer;
+}
+
+.scene {
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.scene:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 408px;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(
+    center,
+    ellipse,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 85%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.35) 0%,
+    rgba(0, 0, 0, 0) 85%
+  );
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.scene:hover,
+.hvr-float-shadow:focus,
+.hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.scene:hover:before,
+.scene:focus:before,
+.scene:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
 .cube-face {
@@ -350,12 +405,19 @@
 }
 
 .radio-container {
-  margin-top: 5.5rem;
-  margin-right: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  /* justify-content: space-between; */
+  /* margin-top: 2.5rem; */
+  /* margin-right: 1.8rem; */
 }
 
+
 .radio-position {
-  margin-left: 1.8rem;
+  margin-top: 0.7rem;
 }
 
 .radio-position:hover {
@@ -369,9 +431,9 @@
 [tooltip]::before {
   content: '';
   position: absolute;
-  top: -15px;
-  left: 0%;
-  /* transform: translateX(-50%); */
+  top: 6px;
+  left: 27px;
+  transform: rotate(90deg);
   border-width: 4px 6px 0 6px;
   border-style: solid;
   border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
@@ -381,8 +443,8 @@
 [tooltip]::after {
   content: attr(tooltip);
   position: absolute;
-  left: -36px;
-  top: -38px;
+  left: 35px;
+  top: -4px;
   /* transform: translateX(-50%) translateY(-100%); */
   background: rgba(0, 0, 0, 0.7);
   text-align: center;
@@ -401,7 +463,12 @@
   opacity: 1;
   transition: all 0.25s;
   /* -webkit-transform: translateX(-50%) translateY(-100%); */
-  transform: translateY(7px);
+  transform: translateX(-7px);
+}
+
+[tooltip]:hover::before {
+  /* -webkit-transform: translateX(-50%) translateY(-100%); */
+  transform: translateX(-7px) rotate(90deg);
 }
 
 /*---------------------------------------------*/
