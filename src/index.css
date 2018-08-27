@@ -1163,7 +1163,7 @@
     width: 180px;
     height: 180px;
     perspective: 540px;
-    margin-left: 0;
+    margin-left: -1rem;
   }
   .scene:before {
     top: 220px;
