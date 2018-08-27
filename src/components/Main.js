@@ -108,7 +108,7 @@ class Main extends Component {
             onChange={this.handleChange}
           />
           <input
-            tooltip="Thank"
+            tooltip="Hi"
             className="radio-position"
             type="radio"
             id="radio-top"
@@ -117,7 +117,7 @@ class Main extends Component {
             onChange={this.handleChange}
           />
           <input
-            tooltip="You"
+            tooltip="There"
             className="radio-position"
             type="radio"
             id="radio-bottom"
