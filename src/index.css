@@ -1146,7 +1146,7 @@
     font-weight: normal;
   }
 }
-@media (max-height: 584px) {
+@media (max-height: 500px) {
   .scene:before {
     top: 220px;
   }
