@@ -38,11 +38,11 @@ class Navbar extends Component {
           <a className="linkP" onClick={e => this.navigate('projects')}>
             PROJECTS
           </a>
-          <a className="linkE" onClick={e => this.navigate('experience')}>
-            EXPERIENCE
-          </a>
           <a className="linkS" onClick={e => this.navigate('skills')}>
             SKILLS
+          </a>
+          <a className="linkE" onClick={e => this.navigate('experience')}>
+            EXPERIENCE
           </a>
         </div>
 

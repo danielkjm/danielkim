@@ -22,8 +22,8 @@ class App extends Component {
         <Navbar />
         <Main />
         <Projects name="projects" />
-        <Experience />
         <Skills />
+        <Experience />
       </div>
     );
   }

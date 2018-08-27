@@ -173,10 +173,12 @@
   transform: rotateY(90deg) translate3d(0, 0, 175px);
   text-align: center;
 }
+
 .cube-face > a {
   position: relative;
   top: 33%;
 }
+
 .li-image {
   height: 33%;
   width: 33%;
