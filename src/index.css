@@ -1066,101 +1066,6 @@
   }
 }
 
-@media (max-width: 888px) {
-  .scene:before {
-    top: 300px;
-    background: -webkit-radial-gradient(
-      center,
-      ellipse,
-      rgba(0, 0, 0, 0.35) 0%,
-      rgba(0, 0, 0, 0) 70%
-    );
-    background: radial-gradient(
-      ellipse at center,
-      rgba(0, 0, 0, 0.35) 0%,
-      rgba(0, 0, 0, 0) 70%
-    );
-  }
-  .scene {
-    left: 2rem;
-  }
-  .radio-container {
-    display: none;
-    flex-direction: column;
-    position: relative;
-    top: 1%;
-    /* left: 5%; */
-    margin-left: -0.8rem;
-    /* justify-content: space-between; */
-    /* margin-top: 2.5rem; */
-    /* margin-right: 1.8rem; */
-  }
-
-  .cube-face-front {
-    border: none;
-    background: url('./dk.jpg');
-    background-size: 80%;
-    background-position: top 45% left 50%;
-    background-repeat: no-repeat;
-    background-color: white;
-    width: 250px;
-    height: 250px;
-    transform: translate3d(0, 0, 125px);
-  }
-
-  .cube-face-right {
-    width: 250px;
-    height: 250px;
-    border-radius: 8px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(192, 192, 192);
-    transform: rotateY(90deg) translate3d(0, 0, 125px);
-  }
-  .cube-face-back {
-    width: 250px;
-    height: 250px;
-    border-radius: 8px;
-    border: 1px solid rgb(192, 192, 192);
-    background-color: white;
-    transform: rotateY(180deg) translate3d(0, 0, 125px);
-  }
-  .cube-face-left {
-    width: 250px;
-    height: 250px;
-    border-radius: 8px;
-    border: 1px solid rgb(192, 192, 192);
-    background-color: white;
-    transform: rotateY(-90deg) translate3d(0, 0, 125px);
-  }
-
-  .cube-face-top {
-    width: 250px;
-    height: 250px;
-    border-radius: 8px;
-    border: 1px solid rgb(192, 192, 192);
-    background: rgb(255, 255, 255);
-    transform: rotateX(90deg) translate3d(0, 0, 125px);
-    font-size: 3em;
-    font-family: 'Work Sans', sans-serif;
-    letter-spacing: 0.1em;
-    color: black;
-    font-weight: normal;
-  }
-
-  .cube-face-bottom {
-    width: 250px;
-    height: 250px;
-    border-radius: 8px;
-    border: 1px solid rgb(192, 192, 192);
-    background: rgb(255, 255, 255);
-    transform: rotateX(-90deg) translate3d(0, 0, 125px);
-    font-size: 3em;
-    font-family: 'Work Sans', sans-serif;
-    letter-spacing: 0.1em;
-    color: black;
-    font-weight: normal;
-  }
-}
 @media (max-height: 584px) {
   .scene:before {
     top: 220px;
@@ -1240,6 +1145,11 @@
   }
   .radio-container {
     margin-top: 3rem;
+  }
+}
+@media (max-width: 888px) {
+  .radio-container {
+    display: none;
   }
 }
 /*
