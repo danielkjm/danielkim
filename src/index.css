@@ -409,11 +409,7 @@
   flex-direction: column;
   position: relative;
   top: 1%;
-  left: 8%;
-  /* margin-left: 5rem; */
-  /* justify-content: space-between; */
-  /* margin-top: 2.5rem; */
-  /* margin-right: 1.8rem; */
+  left: 81px;
 }
 
 .radio-position {
@@ -993,6 +989,14 @@
     margin-left: 1.2rem;
   }
 
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1%;
+    left: 50px;
+  }
+
   .scene {
     width: 250px;
     height: 250px;
@@ -1073,11 +1077,19 @@
     margin-left: 1.2rem;
   }
 
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1%;
+    left: 50px;
+  }
+
   .scene {
     width: 250px;
     height: 250px;
     perspective: 750px;
-    left: 0rem;
+    margin-left: -1rem;
   }
 
   .cube-face-front {
@@ -1155,6 +1167,14 @@
   }
   .scene:before {
     top: 220px;
+  }
+
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1%;
+    left: 37px;
   }
 
   .cube-face-front {
@@ -1326,6 +1346,14 @@
 @media (max-height: 500px) {
   .scene:before {
     top: 220px;
+  }
+
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1%;
+    left: 37px;
   }
 
   .radio-position {
@@ -1602,7 +1630,7 @@
   } */
 }
 
-@media (max-width: 430px) {
+@media (max-width: 650px) {
   .bubble {
     margin-left: 1rem;
   }
