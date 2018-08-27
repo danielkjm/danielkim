@@ -72,6 +72,7 @@ class Main extends Component {
 
         <div className="radio-container">
           <input
+            tooltip="DK"
             className="radio-position"
             type="radio"
             id="radio-front"
@@ -80,6 +81,7 @@ class Main extends Component {
             defaultChecked
           />
           <input
+            tooltip="LinkedIn"
             className="radio-position"
             type="radio"
             id="radio-right"
@@ -88,6 +90,7 @@ class Main extends Component {
             onChange={this.handleChange}
           />
           <input
+            tooltip="GitHub"
             className="radio-position"
             type="radio"
             id="radio-back"
@@ -96,6 +99,7 @@ class Main extends Component {
             onChange={this.handleChange}
           />
           <input
+            tooltip="Medium"
             className="radio-position"
             type="radio"
             id="radio-left"
@@ -104,6 +108,7 @@ class Main extends Component {
             onChange={this.handleChange}
           />
           <input
+            tooltip="Hi"
             className="radio-position"
             type="radio"
             id="radio-top"
@@ -112,6 +117,7 @@ class Main extends Component {
             onChange={this.handleChange}
           />
           <input
+            tooltip="There!"
             className="radio-position"
             type="radio"
             id="radio-bottom"
