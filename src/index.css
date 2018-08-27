@@ -436,9 +436,6 @@
 .gh-image {
   text-align: center;
   margin: 2rem 0 0rem 0;
-}
-
-.gh-image-proj:hover {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -447,11 +444,12 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.gh-image-proj:hover,
-.gh-image-proj:focus,
-.gh-image-proj:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+
+.gh-image:hover,
+.gh-image:focus,
+.gh-image:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 #project1 {

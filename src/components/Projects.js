@@ -54,6 +54,7 @@ class Projects extends Component {
               <a
                 href="https://github.com/CapstoneGitGui/Github_gui"
                 id="gh-image-proj-container"
+                target="_blank"
               >
                 <div className="gh-image">
                   <img
@@ -73,7 +74,10 @@ class Projects extends Component {
                 for basketball players and simplifies the search of finding
                 local games.
               </p>
-              <a href="https://github.com/FullstackBallerz/courtdude">
+              <a
+                href="https://github.com/FullstackBallerz/courtdude"
+                target="_blank"
+              >
                 <div className="gh-image">
                   <img
                     className="gh-octocat"

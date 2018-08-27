@@ -35,7 +35,7 @@ class Main extends Component {
               onClick={() => this.handleClick('radio-back')}
               className="cube-face  cube-face-right"
             >
-              <a href="https://linkedin.com/in/dankim111">
+              <a href="https://linkedin.com/in/dankim111" target="_blank">
                 <img className="li-image" src="linkedin.png" alt="cube" />
               </a>
             </div>
@@ -43,7 +43,7 @@ class Main extends Component {
               onClick={() => this.handleClick('radio-left')}
               className="cube-face  cube-face-back"
             >
-              <a href="https://github.com/danielkjm">
+              <a href="https://github.com/danielkjm" target="_blank">
                 <img className="cube-gh" src="octoliberty.png" alt="cube" />
               </a>
             </div>
@@ -51,7 +51,7 @@ class Main extends Component {
               onClick={() => this.handleClick('radio-top')}
               className="cube-face  cube-face-left"
             >
-              <a href="https://medium.com/@dkdan94">
+              <a href="https://medium.com/@dkdan94" target="_blank">
                 <img className="md-image" src="medium.png" alt="cube" />
               </a>
             </div>
