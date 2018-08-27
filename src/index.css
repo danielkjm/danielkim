@@ -592,7 +592,6 @@
 .skill:hover,
 .skill:focus,
 .skill:active {
-  cursor: pointer;
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
