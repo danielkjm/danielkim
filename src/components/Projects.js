@@ -33,11 +33,6 @@ class Projects extends Component {
     return (
       <div>
         <Element name="projects" />
-        <Modal
-          project={this.state.project}
-          show={this.state.show}
-          handleClose={this.hideModal}
-        />
         <div className="sectionDivider" />
         <section ref="projects">
           <div className="section-title">
@@ -45,9 +40,11 @@ class Projects extends Component {
           </div>
           <div className="projects">
             <div className="project-container">
-              <div className="project-image">
-                <img id="project1" src="gg.png" alt="project" />
+              <div className="GitGUI">
+                GitGUI
+                <div className="under" />
               </div>
+
               <p id="proj-text">
                 An intuitive GUI for all git and github functionalities.
               </p>

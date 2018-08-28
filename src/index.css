@@ -63,7 +63,10 @@
 
 .linkP:hover,
 .linkP:active {
-  color: rgb(28, 98, 189);
+  /* color: rgb(28, 98, 189); */
+  color: rgb(102, 179, 222);
+  /* color: rgb(48, 63, 133); */
+  /* color: rgb(24, 40, 109); */
   /* color: rgb(73, 130, 252); */
   /* color: #ff5252; */
   transition: color 0.2s ease-in-out;
@@ -115,7 +118,7 @@
   width: 96vw;
   background-color: rgb(255, 255, 255);
   display: flex;
-  /* flex-direction: column; */
+  position: relative;
   align-items: center;
   justify-content: center;
 }
@@ -489,7 +492,11 @@
   margin-top: 1rem;
 }
 .projectHeader::first-letter {
-  color: rgb(28, 98, 189);
+  /* color: rgb(28, 98, 189); */
+  color: rgb(102, 179, 222);
+  /* color: rgb(93, 155, 189); */
+  /* color: rgb(24, 40, 109); */
+  /* color: rgb(103, 85, 184); */
 }
 
 .projects {
@@ -498,8 +505,31 @@
   flex-wrap: wrap;
 }
 
+.GitGUI {
+  font-family: 'Modak', cursive;
+  /* color: rgb(19, 19, 46); */
+  /* color: rgb(24, 40, 109); */
+  /* color: rgb(24, 40, 109); */
+  /* color: rgb(28, 98, 189); */
+  /* color: rgb(123, 123, 123); */
+  color: rgb(102, 179, 222);
+  /* color: rgb(93, 155, 189); */
+  font-size: 4em;
+  margin-top: 2rem;
+  text-align: center;
+  /* border-bottom: 1px rgb(24, 40, 109) solid; */
+  position: relative;
+}
+
+.under {
+  position: absolute;
+  left: 33%;
+  width: 6rem;
+  /* border-top: 2px rgb(102, 179, 222) solid; */
+}
+
 .project-container {
-  min-width: 290px;
+  min-width: 330px;
   max-width: 400px;
   display: flex;
   flex-direction: column;
@@ -816,6 +846,7 @@
 }
 
 .experienceHeader::first-letter {
+  /* color: #ff5252; */
   color: #ff5252;
 }
 

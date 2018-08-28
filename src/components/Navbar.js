@@ -14,10 +14,13 @@ class Navbar extends Component {
   navigate(section) {
     // console.log(section);
     // this.refs[section].scrollIntoView({ behavior: 'smooth', block: 'start' });
+    let offset;
+    if (section === 'dk') offset = -500;
+    else offset = -71;
     scroller.scrollTo(section, {
       duration: 300,
       delay: 0,
-      offset: -71,
+      offset: offset,
       smooth: 'linear'
     });
   }
