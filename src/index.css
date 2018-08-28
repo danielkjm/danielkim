@@ -1259,7 +1259,7 @@
     flex-direction: column;
     position: relative;
     top: 1%;
-    left: 4.7%;
+    left: 18px;
   }
   [tooltip]::after {
     content: attr(tooltip);
@@ -1353,7 +1353,7 @@
     flex-direction: column;
     position: relative;
     top: 1%;
-    left: 37px;
+    left: 18px;
   }
 
   .radio-position {
@@ -1363,6 +1363,7 @@
     width: 180px;
     height: 180px;
     perspective: 540px;
+    margin-left: -1rem;
   }
 
   .cube-face-front {
