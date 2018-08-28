@@ -1344,26 +1344,21 @@
 }
 
 @media (max-height: 500px) {
+  .scene {
+    width: 180px;
+    height: 180px;
+    perspective: 540px;
+    margin-left: -1rem;
+  }
   .scene:before {
     top: 220px;
   }
-
   .radio-container {
     display: flex;
     flex-direction: column;
     position: relative;
     top: 1%;
     left: 18px;
-  }
-
-  .radio-position {
-    margin-left: 0.8rem;
-  }
-  .scene {
-    width: 180px;
-    height: 180px;
-    perspective: 540px;
-    margin-left: -1rem;
   }
 
   .cube-face-front {
