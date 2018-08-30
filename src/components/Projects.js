@@ -67,9 +67,8 @@ class Projects extends Component {
                 <img id="project2" src="shoe.png" alt="project" />
               </div>
               <p>
-                A pick-up basketball game app that serves as a social platform
-                for basketball players and simplifies the search of finding
-                local games.
+                A social platform for basketball players that simplifies the
+                search of finding local games.
               </p>
               <a
                 href="https://github.com/FullstackBallerz/courtdude"
