@@ -29,7 +29,7 @@ class Experience extends Component {
               </div>
               <div className="timeline-body">
                 <p className="timeline-description">
-                  I decided to merge my political science background with my
+                  I decided to combine my political science background with my
                   love for building exciting projects. I enrolled in Fullstack
                   Academy to begin my software engineering career and became
                   proficient with Node, Express, React, and PostgreSQL. I have

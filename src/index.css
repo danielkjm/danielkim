@@ -837,6 +837,13 @@
   left: 45.2%;
   bottom: -17px;
 }
+.bubble::before {
+  content: open-quote;
+}
+
+.bubble::after {
+  content: close-quote;
+}
 /*-----------------------------------------------------------*/
 
 .experienceHeader {
@@ -878,14 +885,13 @@
 
 .timeline > li {
   margin-bottom: 4rem;
-  height: 100%;
   position: relative;
 }
 
 .timeline > li:before,
 .timeline > li:after {
   content: ' ';
-  display: table;
+  display: flex;
 }
 
 .timeline > li:after {
