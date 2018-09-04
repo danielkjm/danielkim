@@ -901,7 +901,7 @@
 .timeline > li > .timeline-panel {
   width: 46%;
   min-width: 46px;
-  float: right;
+  float: left;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
   padding: 20px;
@@ -973,8 +973,17 @@
   border-radius: 5px;
 }
 
-.timeline-date {
+.timeline-date-left {
   float: left;
+  width: 30%;
+  color: #ff5252;
+  font-size: 4em;
+  text-align: right;
+  position: relative;
+}
+
+.timeline-date-right {
+  float: right;
   width: 30%;
   color: #ff5252;
   font-size: 4em;
