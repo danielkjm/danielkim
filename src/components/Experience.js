@@ -18,12 +18,11 @@ class Experience extends Component {
         </div>
 
         <ul className="timeline">
-          <li className="timeline-inverted">
-            <div className="timeline-date-left">
-              <div className="text-muted-inverted">2018</div>
-            </div>
-
-            <div className="timeline-panel">
+          <div className="timeline-date">
+            <div className="text-muted-inverted">2018</div>
+          </div>
+          <li>
+            <div className="timeline-panel-left">
               <div className="timeline-heading">
                 <h4>FULLSTACK ACADEMY</h4>
               </div>
@@ -39,11 +38,10 @@ class Experience extends Component {
               </div>
             </div>
           </li>
-
-          <li>
-            <div className="timeline-date-right">
-              <div className="text-muted-inverted">2016</div>
-            </div>
+          <div className="timeline-date">
+            <div className="text-muted-inverted">2016</div>
+          </div>
+          <li className="timeline-inverted">
             <div className="timeline-panel">
               <div className="timeline-heading">
                 <h4>PORTNOFF LAW ASSOCIATES</h4>
@@ -65,8 +63,8 @@ class Experience extends Component {
             </div>
           </li>
 
-          <li className="timeline-inverted">
-            <div className="timeline-panel">
+          <li>
+            <div className="timeline-panel-left">
               <div className="timeline-heading">
                 <h4>LEHIGH UNIVERSITY</h4>
               </div>
@@ -84,12 +82,10 @@ class Experience extends Component {
             </div>
             <div className="text-muted-inverted" />
           </li>
-
-          <li>
-            <div className="timeline-date-left">
-              <div className="text-muted-inverted">2015</div>
-            </div>
-
+          <div className="timeline-date">
+            <div className="text-muted-inverted">2015</div>
+          </div>
+          <li className="timeline-inverted">
             <div className="timeline-panel">
               <div className="timeline-heading">
                 <h4>LEHIGH COUNTY COURT OF COMMON PLEAS</h4>
