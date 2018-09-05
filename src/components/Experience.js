@@ -80,7 +80,6 @@ class Experience extends Component {
                 />
               </div>
             </div>
-            <div className="text-muted-inverted" />
           </li>
           <div className="timeline-date">
             <div className="text-muted-inverted">2015</div>
