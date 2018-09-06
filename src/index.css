@@ -911,25 +911,34 @@
   border-radius: 2px;
   padding: 20px;
   position: relative;
-
-  top: -7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  right: 5%;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   margin-right: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .timeline-panel-left {
   width: 40%;
-  /* min-width: 46px; */
+  position: relative;
   float: left;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
   padding: 20px;
   position: relative;
-  top: -7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 7%;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
   margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .timeline > li > .timeline-panel-left:before {
@@ -992,6 +1001,20 @@
   margin: 1rem 2rem 2rem 0;
 }
 
+.FSA-header {
+  position: relative;
+  right: 14px;
+  width: 18rem;
+}
+.PLA-header {
+  position: relative;
+  width: 18rem;
+}
+.Lehigh-header {
+  position: relative;
+  width: 18rem;
+}
+
 .timeline-body {
   margin: 1rem;
   font-size: 1em;
@@ -1002,9 +1025,8 @@
 }
 
 .timeline-image {
-  width: 20vw;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  width: 10vw;
+
   border-radius: 5px;
 }
 
@@ -1013,6 +1035,7 @@
   font-size: 3em;
   position: relative;
   margin: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 15px;
   border-radius: 20px;
   background: #f76e6e;

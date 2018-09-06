@@ -23,9 +23,10 @@ class Experience extends Component {
           </div>
           <li>
             <div className="timeline-panel-left">
-              <div className="timeline-heading">
+              <img src="FSA.png" className="FSA-header" alt="timeline" />
+              {/* <div className="timeline-heading">
                 <h4>FULLSTACK ACADEMY</h4>
-              </div>
+              </div> */}
               <div className="timeline-body">
                 <p className="timeline-description">
                   I decided to combine my political science background with my
@@ -34,7 +35,6 @@ class Experience extends Component {
                   proficient with Node, Express, React, and PostgreSQL. I have
                   loved the journey of software development since.
                 </p>
-                <img src="FSA.png" className="timeline-image" alt="timeline" />
               </div>
             </div>
           </li>
@@ -43,9 +43,7 @@ class Experience extends Component {
           </div>
           <li className="timeline-inverted">
             <div className="timeline-panel">
-              <div className="timeline-heading">
-                <h4>PORTNOFF LAW ASSOCIATES</h4>
-              </div>
+              <img className="PLA-header" src="portnoff.png" alt="timeline" />
               <div className="timeline-body">
                 <p className="timeline-description">
                   I accepted my first full-time job as a Legal Assistant in 2016
@@ -54,30 +52,18 @@ class Experience extends Component {
                   the Firm's attorneys in the collection of delinquent real
                   estate taxes and municipal fees.
                 </p>
-                <img
-                  src="portnoff.png"
-                  className="timeline-image"
-                  alt="timeline"
-                />
               </div>
             </div>
           </li>
 
           <li>
             <div className="timeline-panel-left">
-              <div className="timeline-heading">
-                <h4>LEHIGH UNIVERSITY</h4>
-              </div>
+              <img src="lehigh.jpg" className="Lehigh-header" alt="timeline" />
               <div className="timeline-body">
                 <p className="timeline-description">
                   I graduated from Lehigh University in 2016 with a B.A. in
                   Political Science.
                 </p>
-                <img
-                  src="lehigh.jpg"
-                  className="timeline-image"
-                  alt="timeline"
-                />
               </div>
             </div>
           </li>
