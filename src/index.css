@@ -992,14 +992,15 @@
 }
 
 .timeline-heading {
-  font-size: 1.7em;
+  font-size: 1.3em;
   font-family: 'Work Sans', sans-serif;
   margin: 1rem 1rem 0 1rem;
 }
 
-/* .court {
+.court {
   display: flex;
-} */
+  align-items: center;
+}
 
 .FSA-header {
   position: relative;
@@ -1024,10 +1025,9 @@
 .timeline-image {
   height: 112px;
   margin-left: 1rem;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   width: 12vw;
   border-radius: 5px;
-  float: left;
 }
 
 .timeline-date {
@@ -1092,19 +1092,6 @@
   border: 1px solid #d4d4d4;
   border-radius: 100%;
 }
-
-/* .timeline-date:before {
-  content: '';
-  width: 12px;
-  height: 12px;
-  position: absolute;
-  right: -18%;
-  top: 37%;
-  background-color: #ffffff;
-  z-index: 100;
-  border: 1px #d4d4d4 solid;
-  border-radius: 100%;
-} */
 
 .timeline-body > p,
 .timeline-body > ul {
@@ -1641,7 +1628,7 @@
   }
 
   .timeline-heading {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: 'Work Sans', sans-serif;
     margin: 1rem 1rem 0 1rem;
   }
