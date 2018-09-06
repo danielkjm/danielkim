@@ -18,7 +18,7 @@ class Experience extends Component {
         </div>
 
         <ul className="timeline">
-          <div className="timeline-date">
+          <div className="timeline-date-top">
             <div className="text-muted-inverted">2018</div>
           </div>
           <li>
@@ -57,7 +57,7 @@ class Experience extends Component {
               </p>
             </div>
           </li>
-          <div className="timeline-date">
+          <div className="timeline-date-last">
             <div className="text-muted-inverted">2015</div>
           </div>
 
