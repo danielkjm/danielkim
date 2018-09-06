@@ -59,15 +59,7 @@ class Main extends Component {
               onClick={() => this.handleClick('radio-bottom')}
               className="cube-face  cube-face-top"
             >
-              <iframe
-                // width="560"
-                className="capVid"
-                height="115"
-                src="https://www.youtube.com/embed/Mf5f1PtdSNw"
-                frameborder="0"
-                allow="autoplay; encrypted-media"
-                allowfullscreen
-              />
+              Thanks..
             </div>
             <div
               onClick={() => this.handleClick('radio-front')}
