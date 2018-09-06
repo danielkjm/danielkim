@@ -1608,9 +1608,6 @@
     margin-bottom: 1rem;
   }
 
-  .timeline-date:before {
-    top: 182%;
-  }
   .timeline-panel-left {
     width: 40%;
     position: relative;
@@ -1651,9 +1648,6 @@
 }
 
 @media (max-width: 623px) {
-  .timeline-date:before {
-    top: 209%;
-  }
   .timeline-panel-left {
     width: 40%;
     position: relative;
