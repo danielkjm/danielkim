@@ -29,11 +29,9 @@ class Experience extends Component {
               </div> */}
               <div className="timeline-body">
                 <p className="timeline-description">
-                  I decided to combine my political science background with my
-                  love for building exciting projects. I enrolled in Fullstack
-                  Academy to begin my software engineering career and became
-                  proficient with Node, Express, React, and PostgreSQL. I have
-                  loved the journey of software development since.
+                  I enrolled in Fullstack Academy to begin my software
+                  engineering career. I gained experience in web development and
+                  in building desktop and mobile applications.
                 </p>
               </div>
             </div>
@@ -70,24 +68,26 @@ class Experience extends Component {
           <div className="timeline-date">
             <div className="text-muted-inverted">2015</div>
           </div>
+
           <li className="timeline-inverted">
             <div className="timeline-panel">
-              <div className="timeline-heading">
-                <h4>LEHIGH COUNTY COURT OF COMMON PLEAS</h4>
-              </div>
-              <div className="timeline-body">
-                <p className="timeline-description">
-                  I interned at the Lehigh County Courthouse during my senior
-                  year at Lehigh University. I worked under the Honorable
-                  Douglas G. Reichley where I composed summary briefs for civil
-                  cases on tort, contract and property law.
-                </p>
-
+              <div className="court">
                 <img
                   src="lehighCourt.jpg"
                   className="timeline-image"
                   alt="timeline"
                 />
+                <div className="timeline-heading">
+                  <h4>LEHIGH COUNTY COURT OF COMMON PLEAS</h4>
+                </div>
+              </div>
+
+              <div className="timeline-body">
+                <p className="timeline-description">
+                  I interned here under the Honorable Douglas G. Reichley during
+                  my senior year at Lehigh University. I composed summary briefs
+                  for civil cases on tort, contract and property law.
+                </p>
               </div>
             </div>
           </li>
