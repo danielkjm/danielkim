@@ -26,9 +26,10 @@ class Skills extends Component {
           <h1 className="skillsHeader">.SLLIKS</h1>
         </div>
         <div className="skills">
+          <img className="skill" src="hjc.jpg" alt="skill" />
+          <img className="skill" src="react.png" alt="skill" />
           <img className="skill" src="node.png" alt="skill" />
           <img className="skill" src="express.png" alt="skill" />
-          <img className="skill" src="react.png" alt="skill" />
           <img className="skill" src="postgreSQL.png" alt="skill" />
         </div>
 
