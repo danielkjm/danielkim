@@ -416,12 +416,25 @@
   left: 81px;
 }
 
-.radio-position {
+.radio-container input {
   margin-top: 0.7rem;
+  -webkit-appearance: none;
+  border: 1px solid #929292;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  outline: none;
+  transition-property: background-color;
+  transition-duration: 400ms;
+  cursor: pointer;
 }
 
-.radio-position:hover {
-  cursor: pointer;
+.radio-container input:hover {
+  background-color: rgb(175, 175, 175);
+}
+
+input[type='radio']:checked {
+  background-color: rgb(95, 95, 95);
 }
 
 [tooltip] {
