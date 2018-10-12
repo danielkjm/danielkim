@@ -27,11 +27,11 @@
   display: none;
 }
 
-.navbar:hover,
+/* .navbar:hover,
 .navbar:active {
   box-shadow: 0 3px 2px rgba(44, 44, 44, 0.072);
   transition: box-shadow 0.2s ease-in-out;
-}
+} */
 
 .linkS {
   text-decoration: none;
@@ -146,6 +146,7 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
+
 .scene:before {
   pointer-events: none;
   position: absolute;
